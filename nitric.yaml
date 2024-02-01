@@ -1,0 +1,4 @@
+name: v1-template
+services:
+  - match: ./services/*.ts
+    start: yarn dev:services %s
